@@ -18,3 +18,15 @@ Un sistema de codificación basado en **potencias numéricas** ✨.
 ```bash
 git clone https://github.com/tuusuario/Cifrado-Exponencial.git
 cd Cifrado-Exponencial
+```
+---
+
+## 🛠️ Uso básico
+
+Puedes ejecutar el script principal para codificar y decodificar mensajes:
+
+```bash
+python cifrado_exponencial.py
+```
+
+---
