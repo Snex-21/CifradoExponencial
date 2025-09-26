@@ -16,8 +16,8 @@ Un sistema de codificación basado en **potencias numéricas** ✨.
 
 ### 1️⃣ Clonar el repositorio
 ```bash
-git clone https://github.com/tuusuario/Cifrado-Exponencial.git
-cd Cifrado-Exponencial
+git clone https://github.com/Snex-21/CifradoExponencial.git
+cd CiffradoExponencial
 ```
 ---
 
