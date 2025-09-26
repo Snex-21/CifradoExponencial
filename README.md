@@ -37,7 +37,7 @@ python start.py
 Puedes descargar el **ejecutable** directamente desde la sección [Releases](https://github.com/Snex-21/CifradoExponencial/releases) del repositorio.  
 Escoge el archivo que corresponda a tu sistema operativo:
 
-- **Windows:** Descarga el ejecutable para Windows y ejecútalo directamente.
+- **Windows:** Descarga el ejecutable para Windows, haz doble clic sobre el archivo descargado y podrás usar el programa directamente, sin necesidad de instalar Python ni otras dependencias
 - **Android / Termux:** Descarga el archivo `start-termux` y sigue los pasos abajo.
 
 ---
