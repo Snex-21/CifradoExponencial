@@ -31,12 +31,44 @@ python start.py
 
 ---
 
+## 💾 Descarga rápida de ejecutables
+
+¿No quieres clonar el repositorio ni instalar dependencias?  
+Puedes descargar el **ejecutable** directamente desde la sección [Releases](https://github.com/Snex-21/CifradoExponencial/releases) del repositorio.  
+Escoge el archivo que corresponda a tu sistema operativo:
+
+- **Windows:** Descarga el ejecutable para Windows y ejecútalo directamente.
+- **Android / Termux:** Descarga el archivo `start-termux` y sigue los pasos abajo.
+
+---
+
+## 📱 Cómo usar el ejecutable en Termux
+
+1. **Instala Termux** en tu dispositivo Android y realiza las configuraciones básicas (actualización de paquetes, etc.).
+2. **Descarga el ejecutable** `start-termux` desde [Releases](https://github.com/Snex-21/CifradoExponencial/releases).
+3. Navega hasta la carpeta donde descargaste el archivo en Termux.
+4. Da permisos de ejecución con el siguiente comando:
+   ```bash
+   chmod +x start-termux
+   ```
+5. Ejecuta el programa con:
+   ```bash
+   ./start-termux
+   ```
+
+¡Listo! Así puedes usar Cifrado Exponencial sin instalar Python ni clonar el código fuente.
+
+---
+
+
 ## 🎯 ¿Por qué usarlo?
 
 - **Educativo:** Aprende sobre conceptos matemáticos y cifrado.
 - **Rápido:** Sin dependencias, solo Python puro.
 - **Personalizable:** Puedes modificar el algoritmo para probar otras formas de codificación.
 - **Simple y fácil de usar:** Su código es sencillo para que cualquiera pueda utilizarlo.
+
+---
 
 ## 🚧 Próximamente
 
