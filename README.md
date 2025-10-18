@@ -125,8 +125,8 @@ Escoge el archivo que corresponda a tu sistema operativo:
 
 ## 🚧 Próximamente
 
-- 🧰 ** Detección de errores mejorada:** Se añadirá un sistema que detecte automáticamente caracteres no soportados, mostrando mensajes claros y personalizados para evitar confusiones al codificar o decodificar textos.
-🌎 **Soporte para nuevos idiomas:** Próximamente se podrá codificar textos en otros alfabetos y variantes lingüísticas, incluyendo:
+- 🧰 **Detección de errores mejorada:** Se añadirá un sistema que detecte automáticamente caracteres no soportados, mostrando mensajes claros y personalizados para evitar confusiones al codificar o decodificar textos.
+- 🌎 **Soporte para nuevos idiomas:** Próximamente se podrá codificar textos en otros alfabetos y variantes lingüísticas, incluyendo:
 🇵🇹 portugués, 🇮🇹 italiano y 🇫🇷 francés, adaptando la codificación a los caracteres propios de cada idioma y manteniendo la compatibilidad con el español.
 - 💻 **Uso como módulo Python externo:** Se añadirá la posibilidad de importar el codificador directamente en otros proyectos Python, permitiendo integrarlo de manera sencilla y eficiente en scripts y programas existentes.
 
