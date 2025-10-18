@@ -6,10 +6,61 @@ Un sistema de codificación basado en **potencias numéricas** ✨.
 
 ## 🚀 Características
 - Cada letra, espacio o símbolo se codifica usando potencias matemáticas.
-- Funciona con todo el alfabeto español (incluyendo la **ñ**) en minúscula y algunos símbolos como el de interrogación (**?**), el de exclamación (**!**), puntos (**.**) y comas (**,**).
 - Codificación y decodificación automática.
 - 100% hecho en **Python**, sin librerías externas.
 
+---
+
+## 🧩 Categorías de caracteres soportados
+
+### 🅰️ Letras minúsculas del alfabeto español
+Incluye todas las letras del abecedario español, con la letra “ñ” incluida.
+
+```text
+a b c d e f g h i j k l m n ñ o p q r s t u v w x y z
+```
+
+### 🔠 Letras mayúsculas del alfabeto español
+Incluye todas las letras en mayúscula, con la “Ñ”.
+
+```text
+A B C D E F G H I J K L M N Ñ O P Q R S T U V W X Y Z
+```
+
+### ✳️ Letras con tilde o diéresis
+Soporta tanto minúsculas como mayúsculas con tilde o diéresis.
+
+```text
+á é í ó ú ü Á É Í Ó Ú Ü
+```
+
+### 🔢 Dígitos numéricos
+Se incluyen todos los números del 0 al 9.
+
+```text
+0 1 2 3 4 5 6 7 8 9
+```
+
+### ✏️ Signos de puntuación del español
+Compatible con los signos de puntuación comunes y los específicos del idioma español.
+
+```text
+, . ; : " ' ` « » ( ) [ ] { } - — ¿ ? ¡ !
+```
+
+### 💻 Caracteres especiales y técnicos
+Incluye símbolos de uso informático, matemático y tipográfico.
+
+```text
+@ # $ % & * / \ | _ + = < > ^ ~ ° ¬ ¶ § · © ® ™ € ¢ ¥
+```
+
+### 🕳️ Espacio en blanco
+El sistema también reconoce correctamente el espacio entre palabras.
+
+```text
+(espacio) 
+```
 ---
 
 ## 📂 Instalación y uso
@@ -19,7 +70,7 @@ Un sistema de codificación basado en **potencias numéricas** ✨.
 git clone https://github.com/Snex-21/CifradoExponencial.git
 ```
 ```bash
-cd CiffradoExponencial
+cd CifradoExponencial
 ```
 ---
 
@@ -74,8 +125,11 @@ Escoge el archivo que corresponda a tu sistema operativo:
 
 ## 🚧 Próximamente
 
-- 🔠 **Soporte para letras mayúsculas:** Próximamente podrás codificar y decodificar mensajes que incluyan letras en mayúsculas.
-- 🔢 **Soporte para números:** Se añadirá la capacidad para codificar y decodificar dígitos numéricos (0-9).
+- 🧰 ** Detección de errores mejorada:** Se añadirá un sistema que detecte automáticamente caracteres no soportados, mostrando mensajes claros y personalizados para evitar confusiones al codificar o decodificar textos.
+🌎 **Soporte para nuevos idiomas:** Próximamente se podrá codificar textos en otros alfabetos y variantes lingüísticas, incluyendo:
+🇵🇹 portugués, 🇮🇹 italiano y 🇫🇷 francés, adaptando la codificación a los caracteres propios de cada idioma y manteniendo la compatibilidad con el español.
+- 💻 **Uso como módulo Python externo:** Se añadirá la posibilidad de importar el codificador directamente en otros proyectos Python, permitiendo integrarlo de manera sencilla y eficiente en scripts y programas existentes.
+
 
 ¡Estate atento a las actualizaciones! 🎉
 
@@ -90,8 +144,21 @@ Creado por [Snex-21](https://github.com/Snex-21)
 
 ## 📄 Licencia
 
-Este proyecto está bajo la licencia MIT.  
-Consulta el archivo [LICENSE](LICENSE) para más detalles.
+Este proyecto está bajo la [licencia MIT](./LICENSE)  
+lo que significa:
+
+### ✅ Podés:
+- Usar el código para cualquier propósito (personal o comercial)  
+- Modificarlo y crear versiones derivadas  
+- Distribuirlo libremente  
+- Integrarlo en tus propios proyectos, incluso comerciales
+
+### 🔴 Limitaciones:
+- El software se entrega **“tal cual”**, sin garantía de funcionamiento  
+- El autor no se hace responsable de errores o daños derivados
+
+### 📜 Obligatorio:
+- Mantener el aviso de copyright y el texto completo de la **licencia MIT** en cualquier copia o redistribución
 
 ---
 
